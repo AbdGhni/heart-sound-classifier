@@ -1,0 +1,35 @@
+{
+  "n_recordings": 545,
+  "protocol": "5-fold stratified CV, out-of-fold predictions",
+  "classes": "normal vs abnormal (murmur, extrahls, extrastole); artifact excluded",
+  "point": {
+    "acc": 0.6568807339449542,
+    "sens": 0.6804123711340206,
+    "spec": 0.6438746438746439,
+    "auc": 0.7429582635768204
+  },
+  "ci95_bootstrap": {
+    "acc": [
+      0.6165137614678899,
+      0.6972477064220184
+    ],
+    "sens": [
+      0.6118678956572428,
+      0.7417748917748918
+    ],
+    "spec": [
+      0.590495938123267,
+      0.6918769728789538
+    ],
+    "auc": [
+      0.6980486384876303,
+      0.7872961526498954
+    ]
+  },
+  "confusion_matrix": {
+    "TN": 226,
+    "FP": 125,
+    "FN": 62,
+    "TP": 132
+  }
+}
